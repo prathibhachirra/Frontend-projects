@@ -1,0 +1,60 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    
+}
+
+body{
+    background-color: grey;
+}
+
+/* Main layout */
+.container{
+    display:flex;
+}
+
+/* Pink box */
+.top{
+    width:300px;
+    min-height:100vh;
+    background-color:pink;
+    padding:40px;
+}
+
+/* Right side cards */
+.cards-section{
+    flex:1;
+    padding:400px;
+}
+
+.row{
+    display:flex;
+    left:600px;
+    gap: 200px;
+    margin-bottom: 30px;
+    padding: 25px;
+    position: relative;
+
+}
+
+/* Cards */
+.card{
+    width:350px;
+    padding:20px;
+    background-color:aliceblue;
+    border-radius:10px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.3);
+    text-align:center;
+}
+
+/* Button */
+.card button{
+    margin-top:15px;
+    padding:8px 15px;
+    border:none;
+    background-color:steelblue;
+    color:white;
+    border-radius:5px;
+    cursor:pointer;
+}
