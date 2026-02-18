@@ -1,0 +1,43 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background-color: rgb(218, 67, 12);
+    color: whitesmoke;
+    font-family: Arial, sans-serif;
+}
+
+.top{
+    padding: 60px;
+}
+
+.top-content{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    width:200px;
+}
+
+
+.row{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    padding: 40px;
+    flex-wrap: wrap;
+}
+
+.card{
+    width:300px;
+    padding:40px;
+    background-color: rgba(84, 15, 15, 0.85);
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.5);
+    border-radius:10px;
+    text-align:center;
+}
